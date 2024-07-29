@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day3Assignment2</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Yaldevi:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .bigContainer {
+        height: 873px;
+        width: 629px;
+        background-color: #110f57;
+        background-image: url(unsplash_g1Kr4Ozfoac.png);
+        background-size: 640px auto;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        z-index: 1;
+        position: relative;
+      }
+      .firstLogo {
+        width: 300px;
+        height: 33px;
+        color: #fff;
+        position: absolute;
+        margin-top: 30px;
+        left: 39px;
+      }
+      .firstLogo span {
+        font-family: Yaldevi;
+        font-size: 24px;
+        font-weight: 700;
+      }
+      #number {
+        font-family: Pattaya;
+        font-size: 24px;
+        font-weight: 400;
+        color: #00fb82;
+      }
+
+      .lineLogo {
+        position: relative;
+        width: 400px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        left: 300px;
+        rotate: 90deg;
+        top: 60px;
+      }
+
+      #line1 {
+        width: 185px;
+        height: 20px;
+        background-color: #00fb82;
+        border-radius: 20px;
+      }
+
+      #line2 {
+        width: 200px;
+        height: 20px;
+
+        background-color: #fff500;
+        border-radius: 20px;
+      }
+
+      #line3 {
+        width: 165px;
+        height: 20px;
+        background-color: #00fb82;
+        border-radius: 20px;
+      }
+
+      #line4 {
+        width: 99px;
+        height: 20px;
+        background-color: #fff500;
+        border-radius: 20px;
+      }
+
+      .secondContent > div {
+        position: relative;
+        width: 413px;
+        height: 132px;
+        left: 39px;
+      }
+      .secondContent p {
+        font-family: Vollkorn;
+        font-size: 64px;
+        font-weight: 800;
+        line-height: 65.79px;
+        text-align: left;
+        color: #00fb82;
+      }
+      .thirdContent > div p {
+        width: 329px;
+        height: 165px;
+        top: 30px;
+        left: 39px;
+        position: relative;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23.5px;
+        text-align: left;
+        color: #e2e2e2b2;
+      }
+
+      .smallCircle {
+        position: relative;
+        width: 202px;
+        height: 134.55px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 2px;
+        right: -445px;
+        margin-top: -60px;
+        rotate: -10deg;
+      }
+
+      .smallCircle > div {
+        width: 19.87px;
+        height: 19.87px;
+        border-radius: 50%;
+        background-color: #ffffff80;
+      }
+
+      .socialMedia {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        left: 39px;
+        position: relative;
+        margin-top: 5px;
+      }
+
+      .socialMedia > div {
+        width: 35px;
+        height: 35px;
+        background-color: #fff; /* white background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      }
+
+      .socialMedia > div img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .footerCircle {
+        position: relative;
+        width: 202px;
+        height: 134.55px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 5px;
+        left: -15px;
+        margin-top: 80px;
+        rotate: -10deg;
+      }
+
+      .footerCircle > div {
+        width: 19.87px;
+        height: 19.87px;
+        border-radius: 50%;
+        background-color: #ffffff80;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bigContainer">
+      <header>
+        <div class="firstLogo">
+          <span>STU</span>
+          <span><img src="logo for D.png" alt="" /></span>
+          <span>IO</span>
+          <span id="number">9</span>
+        </div>
+        <div class="lineLogo">
+          <span id="line1"></span>
+          <span id="line2"></span>
+          <span id="line3"></span>
+          <span id="line4"></span>
+        </div>
+      </header>
+      <section class="secondContent">
+        <div><p>Work Together</p></div>
+      </section>
+      <section class="thirdContent">
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+        </div>
+        <div class="smallCircle">
+          <div id="circle1"></div>
+          <div id="circle2"></div>
+          <div id="circle3"></div>
+          <div id="circle4"></div>
+          <div id="circle5"></div>
+          <div id="circle6"></div>
+          <div id="circle7"></div>
+          <div id="circle8"></div>
+          <div id="circle9"></div>
+          <div id="circle10"></div>
+          <div id="circle11"></div>
+          <div id="circle12"></div>
+          <div id="circle13"></div>
+          <div id="circle14"></div>
+          <div id="circle15"></div>
+          <div id="circle16"></div>
+          <div id="circle17"></div>
+          <div id="circle18"></div>
+          <div id="circle19"></div>
+          <div id="circle20"></div>
+          <div id="circle21"></div>
+          <div id="circle22"></div>
+          <div id="circle23"></div>
+          <div id="circle24"></div>
+          <div id="circle25"></div>
+          <div id="circle26"></div>
+          <div id="circle27"></div>
+          <div id="circle28"></div>
+        </div>
+      </section>
+      <section class="socialMedia">
+        <div id="googleUs">
+          <img src="goggle.png" alt="" />
+        </div>
+        <div id="facebook">
+          <img src="facebook.png" alt="" />
+        </div>
+        <div class="twitter">
+          <img src="twitter.png" alt="" />
+        </div>
+        <div id="linkedIn">
+          <img src="linkedin.png" alt="" />
+        </div>
+      </section>
+      <footer>
+        <div class="footerCircle">
+          <div id="circle29"></div>
+          <div id="circle30"></div>
+          <div id="circle31"></div>
+          <div id="circle32"></div>
+          <div id="circle33"></div>
+          <div id="circle34"></div>
+          <div id="circle35"></div>
+          <div id="circle36"></div>
+          <div id="circle37"></div>
+          <div id="circle38"></div>
+          <div id="circle39"></div>
+          <div id="circle40"></div>
+          <div id="circle41"></div>
+          <div id="circle42"></div>
+          <div id="circle43"></div>
+          <div id="circle44"></div>
+          <div id="circle45"></div>
+          <div id="circle46"></div>
+          <div id="circle47"></div>
+          <div id="circle48"></div>
+          <div id="circle49"></div>
+          <div id="circle50"></div>
+          <div id="circle51"></div>
+          <div id="circle52"></div>
+          <div id="circle53"></div>
+          <div id="circle54"></div>
+          <div id="circle55"></div>
+          <div id="circle56"></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
